@@ -1,0 +1,27 @@
+﻿@{    Layout = null;}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />    
+    <title>Angular And Asp.NET</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js" data-headjs-load="/Scripts/app/init.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading">Welcome Panel</div>
+                <div class="panel-body">
+                    @{Html.RenderPartial("_Welcome"); }
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">Application Panel</div>
+                <div class="panel-body">
+                    @{Html.RenderPartial("_Application");}                    
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

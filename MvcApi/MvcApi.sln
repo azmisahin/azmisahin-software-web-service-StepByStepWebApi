@@ -1,31 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApi", "MvcApi\MvcApi.csproj", "{64C0A772-F2C4-447B-86CB-DD875EE5E541}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Step", "Step", "{CB3EA8D4-721F-49C9-A750-A21ECA968AC1}"
-	ProjectSection(SolutionItems) = preProject
-		Step\1-CreateProject.JPG = Step\1-CreateProject.JPG
-		Step\10-Add-Home-Welcome-Partial-Content.JPG = Step\10-Add-Home-Welcome-Partial-Content.JPG
-		Step\11-Index-Add-Partial-Page-And-HeadJs-Init.JPG = Step\11-Index-Add-Partial-Page-And-HeadJs-Init.JPG
-		Step\12-Add-Application.Javascript.JPG = Step\12-Add-Application.Javascript.JPG
-		Step\13-Add-Welcome.Javascript.JPG = Step\13-Add-Welcome.Javascript.JPG
-		Step\14-Add-Bootloader.Javascript.JPG = Step\14-Add-Bootloader.Javascript.JPG
-		Step\14-Add-Head-initalize.Javascript.JPG = Step\14-Add-Head-initalize.Javascript.JPG
-		Step\15-Run.JPG = Step\15-Run.JPG
-		Step\2-Select-Template.JPG = Step\2-Select-Template.JPG
-		Step\3-Add-Scaffold-Web-Api-Controller.JPG = Step\3-Add-Scaffold-Web-Api-Controller.JPG
-		Step\4-Add-Scaffold-Web-Api-Controller-Test.JPG = Step\4-Add-Scaffold-Web-Api-Controller-Test.JPG
-		Step\4-Web-Api-Get-Method.JPG = Step\4-Web-Api-Get-Method.JPG
-		Step\6-Add-Scaffold-MVC-Controller-Home.JPG = Step\6-Add-Scaffold-MVC-Controller-Home.JPG
-		Step\6-Add-Scaffold-MVC-Controller.JPG = Step\6-Add-Scaffold-MVC-Controller.JPG
-		Step\6-Global-Config-RegisterRoutes.JPG = Step\6-Global-Config-RegisterRoutes.JPG
-		Step\7-Add-Home-Index-View.JPG = Step\7-Add-Home-Index-View.JPG
-		Step\8-Add-Home-Welcome-Partial.JPG = Step\8-Add-Home-Welcome-Partial.JPG
-		Step\9-Add-Home-Application-Partial-Content.JPG = Step\9-Add-Home-Application-Partial-Content.JPG
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D937211-8C5D-4380-B46E-B7BA4E939C42}
 	EndGlobalSection
 EndGlobal
